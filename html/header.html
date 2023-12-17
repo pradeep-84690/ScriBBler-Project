@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/Styles/header.css">
+    </head>
+    <body>
+<div class="header">
+    <a href="/index.html" class="header-logo">Scribber</a>
+    <button class="header-btn" id="signin-btn">Sign In</button>
+    <button class="header-btn" id="signup-btn">Sign Up</button>        
+   <p class="subheading"> Explore, Imagine, Create</p>
+</div>
+
+<div id="signup-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 class="form-heading">Get Started</h2>
+        <div class="form-separator"></div>
+        <div class="form-field">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-field">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username">
+        </div>
+        <div class="form-field">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <div class="form-field">
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" placeholder="Re-enter your password">
+        </div>
+       
+        <input type="submit" value="Sign Up" class="button">
+    </div>
+</div>
+<!-- /Signup modal  -->
+
+<!-- Sign in modal for header -->
+
+<div id="signin-modal" class="modal">
+<div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 class="form-heading">Welcome Back !</h2>
+    <div class="form-separator"></div>
+    <div class="form-field">
+        <label for="signin-username">Username:</label>
+        <input type="text" id="signin-username" placeholder="Enter your username">
+    </div>
+    <div class="form-field">
+        <label for="signin-password">Password:</label>
+        <input type="password" id="signin-password" placeholder="Enter your password">
+    </div>
+    <input type="submit" value="Sign In" class="button" id="signin-submit">
+    <p class="not-member">Not a member? <a href="#" id="signup-link">Sign Up</a></p>
+</div>
+</div>
+
+</body>
+<script src="/Scripts/header.js"></script>
+<script src="/Scripts/sign-in-modal.js"></script>
+<script src="/Scripts/sign-up-modal.js"></script>
+</html>

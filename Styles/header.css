@@ -1,0 +1,176 @@
+.header{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.header-logo {
+    font-family: 'Montez', cursive; 
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 900;
+}
+.header-btn{
+    float: right;
+    margin-left: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    
+}
+
+.subheading{
+    font-family: 'Ubuntu Mono';
+    margin-top: -5px;
+}
+/*Sign up modal*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 450px;
+    position: relative;
+}
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.close:hover,.close:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer; 
+}
+.form-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-field input {
+    background-color: #d4d4d4;
+    color: black;
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-field input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-separator {
+    height: 1px;
+    background-color: #302f2f;
+    margin: 20px 0;
+}
+.button {
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    background-color:rgb(67, 190, 67);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+/*sign up moda*/
+
+/* Signin  modal header*/
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    max-width: 400px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Button styles */
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Other styles */
+  .form-heading {
+    margin-top: 0;
+  }
+  
+  .form-separator {
+    height: 1px;
+    background-color: #1a1a1a;
+    margin: 20px 0;
+  }
+  
+  .form-field {
+    margin-bottom: 10px;
+  }
+  
+  .not-member {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #signupLink {
+    color: blue;
+    cursor: pointer;
+  }
+/*sign in modal*/
